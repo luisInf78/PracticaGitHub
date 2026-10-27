@@ -5,7 +5,7 @@ public class Ejercicio3 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//declaración e inicialización
-		int i = 3;
+		int i = 4;
 		
 		
 		{
