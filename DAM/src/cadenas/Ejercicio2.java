@@ -16,8 +16,8 @@ public class Ejercicio2 {
 		if(!cadena.isEmpty()) {
 			
 			for(int i = 0; i < cadena.length(); i++) {
-				
-				System.out.println(cadena.charAt(i) + " - " + i );
+				if(cadena.charAt(i) != 32)
+					System.out.println(cadena.charAt(i) + " - " + i );
 				if(cadena.charAt(i) == 'a' || cadena.charAt(i) == 'A')
 					contadorA++;
 			}
