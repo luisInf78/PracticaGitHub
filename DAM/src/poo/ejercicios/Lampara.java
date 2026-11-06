@@ -20,5 +20,9 @@ public class Lampara {
 	public boolean estaEncencida() {
 		return this.encendida;
 	}
+	
+	public String getMarca() {
+		return marca;
+	}
 
 }
