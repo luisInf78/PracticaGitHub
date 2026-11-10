@@ -24,5 +24,9 @@ public class Lampara {
 	public String getMarca() {
 		return marca;
 	}
+	
+	public void setMarca(String marca) {
+		this.marca = marca;
+	}
 
 }

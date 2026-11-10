@@ -8,7 +8,7 @@ public class MainLampara {
 		Lampara l1 = new Lampara("Osram");
 		l1.encender();
 		
-		
+		System.out.println();
 		System.out.println(l1.estaEncencida()?"Esta encendida":"Está apagada") ;
 
 		
